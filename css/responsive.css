@@ -1,0 +1,42 @@
+/* all media queries start */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+/* container start */
+.container{
+    max-width: 1140px;
+}
+/* container end */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* container start */
+.container{
+    max-width: 960px;
+}
+/* container end */
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+/* container start */
+.container{
+    max-width: 720px;
+}
+/* container end */
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+/* container start */
+.container{
+    max-width: 540px;
+}
+/* container end */
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+/* all media queries end */

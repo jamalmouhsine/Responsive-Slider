@@ -1,0 +1,84 @@
+/* font used start */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+/* font used end */
+/* reset default value start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset default value end */
+/* body start */
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* body end */
+/* container start */
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+/* container end */
+/* slider cover start */
+.slider-cover{
+    height: 100vh;
+}
+/* slider cover end */
+/* slider start */
+.slider{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 700px;
+    height: 300px;
+    overflow: hidden;
+}
+/* slider end */
+/* slides start */
+.slides{
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform .5s ease-in-out;
+}
+/* slides end */
+/* slide start */
+.slide{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: #fff;
+}
+/* slide end */
+/* slide button start */
+.slide-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #e0eeec;
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: none;
+}
+.slide-btn.disable{
+    opacity: .2;
+}
+.slide-btn#prev{
+    left: 20px;
+    cursor: no-drop;
+}
+.slide-btn#next{
+    right: 20px;
+}
+/* slide button end */
